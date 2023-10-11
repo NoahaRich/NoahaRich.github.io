@@ -4,14 +4,18 @@
         MIS 3033 October 11 Noah Rich
     </title>
 </head>
+
 <style>
     #maindiv
     {
-        background-color:orange;
+        background-color:darkgrey;
         width:800px;
         height:500px;
         display:flex;
-        flex-direction:row
+        flex-direction:row;
+        justify-content: flex-end;
+        align-items:flex-end;
+        margin-top:50px;
     }
     .d1
     {
@@ -21,8 +25,73 @@
         margin-top:10px;
         background-color:saddlebrown;
     }
+
+    #webdiv
+    {
+        background-color:deepskyblue;
+        width:1000px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #footerdiv
+    {
+        background-color:aliceblue;
+        height:50px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        border-radius:5px;
+        color:darkgrey;
+    }
+    #bodydiv
+    {
+        background-color:lightcoral;
+        display:flex;
+        flex-direction:row;
+
+    }
+    #leftdiv
+    {
+        background-color:purple;
+    }
+    #rightdiv
+    {
+        background-color:darkred;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+
+        border-radius:10px;
+        border-width:2px;
+        border-style:solid;
+        border-color:darkgray;
+    }
 </style>
 <body>
+
+    <div id="webdiv">
+        This is a webpage
+
+        <div id="bodydiv"> 
+            <div id="leftdiv">
+                left
+            </div>
+            <div id="rightdiv">
+                <div style="color:dodgerblue; font-size:20px; font-weight:bold;">I love MIS 3033</div>
+                
+                <div>
+                <img style="width:400px;" src="b.svg"/>
+                </div>
+            </div>
+        </div>
+
+        <div id="footerdiv">
+            <span>Designed and Developed by Noah Rich for MIS 3033 Exam 2</span>
+        </div>
+    </div>
+
+
     <div id="maindiv">
         <div class="d1">div1</div>
         <div class="d1">div2</div>
