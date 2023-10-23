@@ -3,13 +3,143 @@
     <title>
         Noah Rich Oct 23, 2023 Exam 2 Practice
     </title>
+    <style>
+        #main {
+            background-color: sandybrown;
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
+        #header {
+            background-color: lightgoldenrodyellow;
+            text-align: left;
+        }
+
+        #body1 {
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+        }
+
+        #body2 {
+            background-color: #ededed;
+        }
+
+        #footer {
+            background-color: #faf7f7;
+            color: dimgray;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .t {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        #left {
+            background-color: darkolivegreen;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #right {
+            background-color: gray;
+            width: 800px;
+        }
+
+        #rup {
+            background-color: darkorange;
+        }
+
+        #rdown {
+            background-color: darkred;
+            display: flex;
+            flex-direction: row;
+        }
+        #links
+        {
+            background-color:grey;
+            width:400px;
+            height:200px;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            align-items:center;
+        }
+    </style>
 </head>
 <body>
-    <img src="Static/head1.png" style="width:100px;"/>
-    <img src="Static/email.png" style="width:100px;"/>
-    <img src="Static/linkedin.png" style="width:100px;"/>
-    <img src="Static/twitter.png" style="width:100px;"/>
-    <img src="Static/instagram.png" style="width:100px;"/>
+
+    <div id="main">
+        <div id="header">
+            <span style="color:dodgerblue; font-size:20pt; font-weight:bold;">Noah Rich's Website</span>
+        </div>
+        <div id="body1">
+            <div id="left">
+                <div><img src="static/head1.png" style="width:200px;border-radius:50%;" /></div>
+                <div><span style="font-size:30px;">Noah Rich</span></div>
+                <div><span>Student in Management Information Systems</span></div>
+                <div><span>The University of Oklahoma</span></div>
+                <div id="links">
+                    <a href="mailto:xinglong.ju@ou.edu" target="_blank"><img src="static/email.png" style="width:30px;" /></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="static/linkedin.png" style="width:30px;" /></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="static/twitter.png" style="width:30px;" /></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="static/instagram.png" style="width:30px;" /></a>   
+                </div>
+            </div>
+
+            <div id="right">
+                <div id="rup">
+                    <span class="t">Biography</span>
+                </div>
+                <div id="rdown">
+                    <div>
+                        <span class="t">Interests</span>
+                        <ol>
+                            <li>Analyst/Programmer</li>
+                            <li>Business Analyst</li>
+                            <li>Database Administration</li>
+                            <li>Web Developer</li>
+                            <li>Data Scientists</li>
+                        </ol>
+                    </div>
+                    <div>
+                        <span class="t">Education</span>
+                        <ul>
+                            <li>
+                                M.S. in Management Information Systems, 2024<br />
+                                The University of Oklahoma
+                            </li>
+                            <li>
+                                B.E. in Management Information Systems, 2022<br />
+                                The University of Oklahoma
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="body2">
+            <span class="t">Recent News</span>
+            <ul style="margin-bottom:0px;">
+                <li>Learning C# Web Application Design</li>
+                <li>Learning C# EF</li>
+            </ul>
+        </div>
+        <div id="footer">
+            <span>Designed and Published by Noah Rich</span>
+        </div>
+    </div>
+
 </body>
 </html>
