@@ -1,15 +1,165 @@
 <html>
 <head>
-    <title>[Exam Code: ]Noah Rich Exam 2 MIS 3033</title>
+    <title>[Exam Code: JAPE ]Noah Rich Exam 2 MIS 3033</title>
 </head>
+<style>
+    .t {
+        text-transform: uppercase;
+        background-color: lightskyblue;
+        border-radius: 50px;
+    }
+
+    .border {
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-radius: 5px;
+    }
+
+    #main {
+        width: 800px;
+    }
+
+    #top1 {
+        width: 200px;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-radius: 5px;
+    }
+
+    #top2 {
+        width: 200px;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-radius: 5px;
+    }
+
+    #head {
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        width: 800px;
+    }
+
+    #body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #tleft {
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-radius: 5px;
+        width: 510px;
+        height: 110px;
+    }
+
+    #bleft {
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-radius: 5px;
+        width: 510px;
+    }
+
+    #right {
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-radius: 5px;
+        width: 280px;
+    }
+
+    #foot {
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightgrey;
+        border-radius: 5px;
+        width: 800px;
+        height: 60px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: grey;
+        justify-content: right;
+    }
+</style>
 <body>
-    <img src="static/head1.png" style="height:100px;" />
-    <img src="static/head2.png" style="height:100px;" />
-    <img src="static/html.svg" style="height:100px;" />
-    <img src="static/css.svg" style="height:100px;" />
-    <img src="static/linkedin.png" style="height:100px;" />
-    <img src="static/javascript.svg" style="height:100px;" />
-    <img src="static/logo.svg" style="height:100px;" />
-    <img src="static/sqlite.svg" style="height:100px;" />
+    <div style="display:flex;flex-direction:row;">
+        <div id="top1" style="text-align: center">
+            MIS 3033 Exam 2<br />
+            Noah Rich
+        </div>
+        <div id="top2">
+            JAPE
+        </div>
+
+    </div>
+    <div id="head">
+        <div style="justify-content:left; margin-right:10px;"><img src="static/head1.png" style="height:60px; border-radius:5px;" /></div>
+        <div style="justify-content:left; margin-right:20px;">
+            Noah Rich<br />
+            MIS Student
+        </div>
+        <div> <a href="https://www.linkedin.com/"><img src="static/linkedin.png" style="width:30px;" /></a> </div>
+    </div>
+    <div id="body">
+        <div id="left">
+            <div id="tleft">
+                <span class="t">ABOUT ME:</span><br />
+                I am a MIS student. I like programming and I am good at C#. I leaned Entity Framework for Database Manipulations. I know HTML, CSS and I started to learn JavaScript. It is fun. Later I will learn C# .NET MVC Dynamic Web App development and Web API development.
+            </div>
+            <div id="bleft">
+                <span class="t">Achievements</span><br />
+                <div style="display:flex; flex-direction:row; justify-content:center">
+                    <img src="static/html.svg" style="height:100px;" class="border" />
+                    <img src="static/css.svg" style="height:100px;" class="border" />
+                    <img src="static/javascript.svg" style="height:100px;" class="border" />
+                </div>
+
+            </div>
+        </div>
+        <div id="right">
+            <span class="t">Recent News</span><br />
+            <ul>
+                <li>Learned C#</li>
+                <li> Learned Entity Framework</li>
+                <li>Learned <img src="static/sqlite.svg" style="height:40px;" /> </li>
+            </ul>
+        </div>
+    </div>
+    <div id="foot" style="justify-content:right;">
+        Developed by Noah Rich for MIS 3033 Exam 2
+        <img src="static/logo.svg" style="height:50px;" />
+    </div>
+    <!--<img src="static/head1.png" style="height:100px;" />
+    <img src="static/head2.png" style="height:100px;" />-->
+    <!--<img src="static/html.svg" style="height:100px;" />
+    <img src="static/css.svg" style="height:100px;" />-->
+    <!--<img src="static/linkedin.png" style="height:100px;" />-->
+    <!--<img src="static/javascript.svg" style="height:100px;" />-->
+    <!--<img src="static/logo.svg" style="height:100px;" />-->
+    <!--<img src="static/sqlite.svg" style="height:100px;" />-->
 </body>
 </html>
